@@ -23,7 +23,6 @@ GCPermissioner is a Python 3 tool that scans across multiple GCP services using 
 ✅ Access granted for 'compute_instances' — 4 item(s) saved.
 ✅ Access granted for 'cloud_storage_buckets' — 2 item(s) saved.
 ⚠️ LIST permission on 'firestore_databases' granted but no resources found.
-❌ No access or error for 'cloud_sql_instances'
 ```
 
 Folder structure:

@@ -267,10 +267,9 @@ def main(project_id, access_token, output_dir):
                 if count != 'error' and count > 0:
                     accessible_resources.append((resource_name, count))
                     with open(summary_path, 'a') as summary:
-                        summary.write(f"[+] LIST permission on {resource_name}: {count} item(s)\n")
+                        summary.write(f"[+] List privilege on {resource_name}: {count} item(s)\n")
                 elif count == 0:
                     accessible_resources.append((resource_name, count))
-                    #print(f"⚠️ LIST permission on '{resource_name}' granted but no resources found.")
             except Exception as e:
                 print(f"❌ Exception on '{name}': {e}")
             progress.update(1)
@@ -278,8 +277,10 @@ def main(project_id, access_token, output_dir):
     progress.close()
     print("\n✅ Accesible resources:\n")
     for res in sorted(accessible_resources):
-        print(f"✅ List privilege detected over '{res[0]}' —— {res[1]} item(s) saved.")
-        #print(f"✅ List privilege detected over: {res}")
+        if (res[1] == 0):
+            print(f"⚠️ List privilege detected on '{res[0]}' but no resources found.")
+        else:
+            print(f"✅ List privilege detected on '{res[0]}' —— {res[1]} item(s) saved.")
 
     print(f"\n📁 Report saved to: {output_dir}/\n")
 

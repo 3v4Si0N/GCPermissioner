@@ -104,7 +104,7 @@ This tool does not modify any resources. It is intended for **read-only auditing
 
 ## 📄 License
 
-MIT License
+GNU GPLv3
 
 ---
 

@@ -71,10 +71,6 @@
         "url": "https://memcache.googleapis.com/v1/projects/{project}/locations/-/instances",
         "key": "instances"
     },
-    "service_accounts": {
-        "url": "https://iam.googleapis.com/v1/projects/{project}/serviceAccounts",
-        "key": "accounts"
-    },
     "endpoints_services": {
         "url": "https://servicemanagement.googleapis.com/v1/services?consumerId=project:{project}",
         "key": "services"
@@ -202,5 +198,297 @@
     "cloudresourcemanager_projects": {
         "url": "https://cloudresourcemanager.googleapis.com/v1/projects",
         "key": "projects"
+    },
+    "cloud_sql_instances": {
+        "url": "https://sqladmin.googleapis.com/sql/v1beta4/projects/{project}/instances",
+        "key": "items"
+    },
+    "pubsub_topics": {
+        "url": "https://pubsub.googleapis.com/v1/projects/{project}/topics",
+        "key": "topics"
+    },
+    "firestore_databases": {
+        "url": "https://firestore.googleapis.com/v1/projects/{project}/databases",
+        "key": "databases"
+    },
+    "bigquery_datasets": {
+        "url": "https://bigquery.googleapis.com/bigquery/v2/projects/{project}/datasets",
+        "key": "datasets"
+    },
+    "compute_disks": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/aggregated/disks",
+        "key": "items"
+    },
+    "compute_firewalls": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/global/firewalls",
+        "key": "items"
+    },
+    "compute_networks": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/global/networks",
+        "key": "items"
+    },
+    "compute_subnetworks": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/aggregated/subnetworks",
+        "key": "items"
+    },
+    "compute_addresses": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/aggregated/addresses",
+        "key": "items"
+    },
+    "compute_routes": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/global/routes",
+        "key": "items"
+    },
+    "compute_forwarding_rules": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/aggregated/forwardingRules",
+        "key": "items"
+    },
+    "compute_target_pools": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/aggregated/targetPools",
+        "key": "items"
+    },
+    "compute_instance_groups": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/aggregated/instanceGroups",
+        "key": "items"
+    },
+    "compute_instance_templates": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/global/instanceTemplates",
+        "key": "items"
+    },
+    "compute_health_checks": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/global/healthChecks",
+        "key": "items"
+    },
+    "compute_backend_services": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/global/backendServices",
+        "key": "items"
+    },
+    "compute_url_maps": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/global/urlMaps",
+        "key": "items"
+    },
+    "compute_target_http_proxies": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/global/targetHttpProxies",
+        "key": "items"
+    },
+    "compute_target_https_proxies": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/global/targetHttpsProxies",
+        "key": "items"
+    },
+    "compute_ssl_certificates": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/global/sslCertificates",
+        "key": "items"
+    },
+    "compute_snapshots": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/global/snapshots",
+        "key": "items"
+    },
+    "compute_machine_types": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/aggregated/machineTypes",
+        "key": "items"
+    },
+    "compute_zones": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/zones",
+        "key": "items"
+    },
+    "compute_regions": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/regions",
+        "key": "items"
+    },
+    "iam_service_accounts": {
+        "url": "https://iam.googleapis.com/v1/projects/{project}/serviceAccounts",
+        "key": "accounts"
+    },
+    "cloud_run_services": {
+        "url": "https://run.googleapis.com/v1/projects/{project}/locations/-/services",
+        "key": "services"
+    },
+    "container_clusters": {
+        "url": "https://container.googleapis.com/v1/projects/{project}/locations/-/clusters",
+        "key": "clusters"
+    },
+    "pubsub_subscriptions": {
+        "url": "https://pubsub.googleapis.com/v1/projects/{project}/subscriptions",
+        "key": "subscriptions"
+    },
+    "logging_metrics": {
+        "url": "https://logging.googleapis.com/v2/projects/{project}/metrics",
+        "key": "metrics"
+    },
+    "logging_sinks": {
+        "url": "https://logging.googleapis.com/v2/projects/{project}/sinks",
+        "key": "sinks"
+    },
+    "monitoring_notification_channels": {
+        "url": "https://monitoring.googleapis.com/v3/projects/{project}/notificationChannels",
+        "key": "notificationChannels"
+    },
+    "monitoring_uptime_check_configs": {
+        "url": "https://monitoring.googleapis.com/v3/projects/{project}/uptimeCheckConfigs",
+        "key": "uptimeCheckConfigs"
+    },
+    "dataproc_clusters": {
+        "url": "https://dataproc.googleapis.com/v1/projects/{project}/regions/-/clusters",
+        "key": "clusters"
+    },
+    "dataproc_jobs": {
+        "url": "https://dataproc.googleapis.com/v1/projects/{project}/regions/-/jobs",
+        "key": "jobs"
+    },
+    "cloudbuild_builds": {
+        "url": "https://cloudbuild.googleapis.com/v1/projects/{project}/builds",
+        "key": "builds"
+    },
+    "kms_keyrings": {
+        "url": "https://cloudkms.googleapis.com/v1/projects/{project}/locations/-/keyRings",
+        "key": "keyRings"
+    },
+    "service_usage_services": {
+        "url": "https://serviceusage.googleapis.com/v1/projects/{project}/services",
+        "key": "services"
+    },
+    "storage_hmac_keys": {
+        "url": "https://storage.googleapis.com/storage/v1/projects/{project}/hmacKeys",
+        "key": "items"
+    },
+    "appengine_applications": {
+        "url": "https://appengine.googleapis.com/v1/apps/{project}",
+        "key": ""
+    },
+    "appengine_services": {
+        "url": "https://appengine.googleapis.com/v1/apps/{project}/services",
+        "key": "services"
+    },
+    "appengine_firewall_rules": {
+        "url": "https://appengine.googleapis.com/v1/apps/{project}/firewall/ingressRules",
+        "key": "ingressRules"
+    },
+    "dlp_job_triggers": {
+        "url": "https://dlp.googleapis.com/v2/projects/{project}/jobTriggers",
+        "key": "jobTriggers"
+    },
+    "dlp_inspect_templates": {
+        "url": "https://dlp.googleapis.com/v2/projects/{project}/inspectTemplates",
+        "key": "inspectTemplates"
+    },
+    "redis_instances": {
+        "url": "https://redis.googleapis.com/v1/projects/{project}/locations/-/instances",
+        "key": "instances"
+    },
+    "memcache_instances": {
+        "url": "https://memcache.googleapis.com/v1/projects/{project}/locations/-/instances",
+        "key": "instances"
+    },
+    "filestore_instances": {
+        "url": "https://file.googleapis.com/v1/projects/{project}/locations/-/instances",
+        "key": "instances"
+    },
+    "spanner_instances": {
+        "url": "https://spanner.googleapis.com/v1/projects/{project}/instances",
+        "key": "instances"
+    },
+    "dataflow_jobs": {
+        "url": "https://dataflow.googleapis.com/v1b3/projects/{project}/jobs",
+        "key": "jobs"
+    },
+    "compute_autoscalers": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/aggregated/autoscalers",
+        "key": "items"
+    },
+    "compute_vpn_tunnels": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/aggregated/vpnTunnels",
+        "key": "items"
+    },
+    "compute_interconnects": {
+        "url": "https://compute.googleapis.com/compute/v1/projects/{project}/global/interconnects",
+        "key": "items"
+    },
+    "bigquery_jobs": {
+        "url": "https://bigquery.googleapis.com/bigquery/v2/projects/{project}/jobs",
+        "key": "jobs"
+    },
+    "bigquery_transfers": {
+        "url": "https://bigquery.googleapis.com/bigquerydatatransfer/v1/projects/{project}/locations/-/transferConfigs",
+        "key": "transferConfigs"
+    },
+    "bigquery_reservations": {
+        "url": "https://bigquery.googleapis.com/bigqueryreservation/v1/projects/{project}/locations/-/reservations",
+        "key": "reservations"
+    },
+    "dialogflow_agents": {
+        "url": "https://dialogflow.googleapis.com/v2/projects/{project}/agent",
+        "key": ""
+    },
+    "dialogflow_intents": {
+        "url": "https://dialogflow.googleapis.com/v2/projects/{project}/agent/intents",
+        "key": "intents"
+    },
+    "aiplatform_models": {
+        "url": "https://aiplatform.googleapis.com/v1/projects/{project}/locations/-/models",
+        "key": "models"
+    },
+    "aiplatform_datasets": {
+        "url": "https://aiplatform.googleapis.com/v1/projects/{project}/locations/-/datasets",
+        "key": "datasets"
+    },
+    "aiplatform_endpoints": {
+        "url": "https://aiplatform.googleapis.com/v1/projects/{project}/locations/-/endpoints",
+        "key": "endpoints"
+    },
+    "vision_product_sets": {
+        "url": "https://vision.googleapis.com/v1/projects/{project}/locations/-/productSets",
+        "key": "productSets"
+    },
+    "vision_products": {
+        "url": "https://vision.googleapis.com/v1/projects/{project}/locations/-/products",
+        "key": "products"
+    },
+    "asset_feeds": {
+        "url": "https://cloudasset.googleapis.com/v1/projects/{project}/feeds",
+        "key": "feeds"
+    },
+    "billing_budgets": {
+        "url": "https://billingbudgets.googleapis.com/v1/projects/{project}/budgets",
+        "key": "budgets"
+    },
+    "transcoder_jobs": {
+        "url": "https://transcoder.googleapis.com/v1/projects/{project}/locations/-/jobs",
+        "key": "jobs"
+    },
+    "document_processors": {
+        "url": "https://documentai.googleapis.com/v1/projects/{project}/locations/-/processors",
+        "key": "processors"
+    },
+    "workflows": {
+        "url": "https://workflows.googleapis.com/v1/projects/{project}/locations/-/workflows",
+        "key": "workflows"
+    },
+    "workflows_executions": {
+        "url": "https://workflowexecutions.googleapis.com/v1/projects/{project}/locations/-/workflows/-/executions",
+        "key": "executions"
+    },
+    "cloud_deploy_targets": {
+        "url": "https://clouddeploy.googleapis.com/v1/projects/{project}/locations/-/targets",
+        "key": "targets"
+    },
+    "api_gateway_gateways": {
+        "url": "https://apigateway.googleapis.com/v1/projects/{project}/locations/-/gateways",
+        "key": "gateways"
+    },
+    "api_gateway_apis": {
+        "url": "https://apigateway.googleapis.com/v1/projects/{project}/locations/-/apis",
+        "key": "apis"
+    },
+    "binary_authorization_policy": {
+        "url": "https://binaryauthorization.googleapis.com/v1/projects/{project}/policy",
+        "key": ""
+    },
+    "retail_catalogs": {
+        "url": "https://retail.googleapis.com/v2/projects/{project}/locations/global/catalogs",
+        "key": "catalogs"
+    },
+    "retail_branches": {
+        "url": "https://retail.googleapis.com/v2/projects/{project}/locations/global/catalogs/default_catalog/branches",
+        "key": "branches"
     }
 }

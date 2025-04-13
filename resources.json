@@ -303,10 +303,6 @@
         "url": "https://run.googleapis.com/v1/projects/{project}/locations/-/services",
         "key": "services"
     },
-    "container_clusters": {
-        "url": "https://container.googleapis.com/v1/projects/{project}/locations/-/clusters",
-        "key": "clusters"
-    },
     "pubsub_subscriptions": {
         "url": "https://pubsub.googleapis.com/v1/projects/{project}/subscriptions",
         "key": "subscriptions"

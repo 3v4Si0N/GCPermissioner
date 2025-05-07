@@ -299,10 +299,6 @@
         "url": "https://iam.googleapis.com/v1/projects/{project}/serviceAccounts",
         "key": "accounts"
     },
-    "cloud_run_services": {
-        "url": "https://run.googleapis.com/v1/projects/{project}/locations/-/services",
-        "key": "services"
-    },
     "pubsub_subscriptions": {
         "url": "https://pubsub.googleapis.com/v1/projects/{project}/subscriptions",
         "key": "subscriptions"
